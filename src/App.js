@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="app-body">
 
-        <Navbar className="custom-navbar" fixedTop>
+        <Navbar className="custom-navbar" staticTop>
           <Navbar.Header>
             <Navbar.Brand>
               <a href="/">SULLY</a>
@@ -41,18 +41,20 @@ class App extends Component {
             <h1>Latest Projects</h1>
             </Col>
           </Row>
-          <Row className="contact">
-            <Col>
-            <h1>Let's talk</h1>
-            <h2>andrew.sullivan@procore.com</h2>
-            </Col>
-          </Row>
-          <Row className="footer">
-            <Col>
-            <h1>Links</h1>
-            </Col>
-          </Row>
         </Grid>
+
+        <div className="contact">
+          <h1>Let's Talk.</h1>
+          <h2><a href="mailto:andrew.sullivan@procore.com?">andrew.sullivan@procore.com</a></h2>
+        </div>
+
+
+        <div className="footer">
+          <i href="/" className="fa fa-linkedin-square fa-3x"></i>
+          <i className="fa fa-github fa-3x"></i>
+          <i className="fa fa-instagram fa-3x"></i>
+          <i className="fa fa-facebook-official fa-3x"></i>
+        </div>
 
       </div>
     );
