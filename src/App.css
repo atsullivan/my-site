@@ -1,24 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+@font-face {
+  font-family: 'fuji_quake_zone-webfont';
+  src: url('fuji_quake_zone-webfont.eot?') format('eot'), url('fuji_quake_zone-webfont.woff') format('woff'), url('fuji_quake_zone-webfont.ttf') format('truetype');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.app-body {
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.custom-navbar {
+  /*background-color: #74EBD5 !important;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%) !important;*/
+
+  /*background-color: #08AEEA !important;
+  background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%) !important;*/
+
+  background-color: #4158D0!important;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)!important;
+
 }
 
-.App-intro {
-  font-size: large;
+.navbar-brand, .nav a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white !important;
+  /*text-transform: uppercase;*/
+  letter-spacing: 2px;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.navbar-brand {
+  /*font-family: 'Lazer84';
+  font-family: 'SLANT';
+  font-family: 'thundertitan3d';*/
+  font-family: 'fuji_quake_zone-webfont' !important;
+  font-size: 50px !important;
+}
+
+.row {
+  height: 100vh;
+}
+
+.intro-col {
+  /*width: 250px;
+  height: 250px;*/
+  margin: auto;
+  /*background: #eee;*/
+
+  border: 5px solid transparent;
+
+  -moz-border-image: -moz-linear-gradient(left, #08AEEA 0%, #2AF598 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #08AEEA 0%, #2AF598 100%);
+  border-image: linear-gradient(to right, #08AEEA 0%, #2AF598 100%);
+
+  border-image-slice: 1;
+  width: 50%;
+
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(left, #08AEEA 0%, #2AF598 100%);
+  background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  font-family: 'fuji_quake_zone-webfont' !important;
 }
