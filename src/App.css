@@ -10,18 +10,6 @@
   font-family: 'fuji_quake_zone-webfont';
   src: url('fuji_quake_zone-webfont.eot?') format('eot'), url('fuji_quake_zone-webfont.woff') format('woff'), url('fuji_quake_zone-webfont.ttf') format('truetype');
 }
-@font-face {
-  font-family: 'Aemstel-Shadow';
-  src: url('Aemstel-Shadow.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'Aemstel-LineOutside';
-  src: url('Aemstel-LineOutside.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'ZAPPAT-Black';
-  src: url('ZAPPAT-Black.otf') format('otf');
-}
 
 /****** GLOBAL *********/
 .app-body {
@@ -29,31 +17,13 @@
   background-color: #303239!important;
 }
 
-h1 {
-  font-family: 'shamery' !important;
-}
-
 /****** BODY *********/
-
-
 .intro-col {
-  /*padding-top: 200px;
-  padding-bottom: 200px;*/
   height: 100vh;
-
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  /*width: 250px;
-  height: 250px;
-  margin: auto;
-  border: 5px solid transparent;
-  -moz-border-image: -moz-linear-gradient(left, #08AEEA 0%, #2AF598 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #08AEEA 0%, #2AF598 100%);
-  border-image: linear-gradient(to right, #08AEEA 0%, #2AF598 100%);
-  border-image-slice: 1;
-  width: 50%;*/
 }
 
 h1 {
@@ -91,46 +61,6 @@ h3 {
   line-height: 80% !important;
   text-transform: uppercase;
   font-family: 'fuji_quake_zone-webfont' !important;
-}
-
-.lg {
-  /*font-size: 30px !important;*/
-  /*width: 350% !important;*/
-  font-stretch: ultra-condensed !important;
-}
-
-.sm {
-}
-
-
-/****** CONTACT *********/
-.contact {
-  /*background-color: #4158D0!important;*/
-  /*background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)!important;*/
-  color: white;
-}
-
-.contact h1 {
-  padding-top: 400px;
-  font-size: 85px;
-  text-transform: uppercase;
-}
-
-.contact h2 {
-  margin-bottom: 0px;
-  padding-bottom: 400px;
-  font-size: 25px;
-}
-
-.contact h2 a {
- cursor: pointer;
-  color: white !important;
-  opacity: 0.7;
-}
-
-.contact h2 a:hover {
-  opacity: 1.0 !important;
-  text-decoration: none;
 }
 
 /****** FOOTER *********/
