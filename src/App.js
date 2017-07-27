@@ -8,45 +8,28 @@ class App extends Component {
     return (
       <div className="app-body">
 
-        <Navbar className="custom-navbar" staticTop>
+        {/* <Navbar className="custom-navbar" fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
               <a href="/">SULLY</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
-          <Nav pullRight>
-            <NavItem eventKey={1} href="#">About</NavItem>
-            <NavItem eventKey={2} href="#">Work</NavItem>
-            <NavItem eventKey={3} href="#">Contact</NavItem>
-          </Nav>
-        </Navbar>
+        </Navbar> */}
+{/* 
+        <div className="icon">
+          <h3 className='lg'>su</h3>
+          <h3 className='lg'>ll</h3>
+          <h3 className='lg'>y</h3>
+        </div> */}
 
-        <Grid>
-          <Row className="intro">
-            <Col className="intro-col">
-              <h1>SULLY</h1>
-            </Col>
-          </Row>
-          <Row className="about">
-            <Col>
-              <p>
-                I'm a Developer with a passion for design, living in Santa Barbara, CA.
-                I work for Procore Technologies as a backend engineer.
-              </p>
-            </Col>
-          </Row>
-          <Row className="work">
-            <Col>
-            <h1>Latest Projects</h1>
-            </Col>
-          </Row>
-        </Grid>
-
-        <div className="contact">
-          <h1>Let's Talk.</h1>
-          <h2><a href="mailto:andrew.sullivan@procore.com?">andrew.sullivan@procore.com</a></h2>
+        <div className="intro-col">
+          <h2>Andrew Sullivan</h2>
+          <h1>sully</h1>
+          <h2>software engineer</h2>
         </div>
+
+
 
 
         <div className="footer">
