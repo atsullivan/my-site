@@ -1,7 +1,7 @@
 /****** FONTS *********/
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
-@import url('https://fonts.googleapis.com/css?family=Lato:700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 @font-face {
   font-family: 'shamery';
   src: url('shamery.otf') format('otf');
@@ -14,11 +14,11 @@
 /****** GLOBAL *********/
 .app-body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #303239!important;
 }
 
-/****** BODY *********/
-.intro-col {
+/****** HEADER *********/
+.header {
+  background-color: #303239!important;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -26,23 +26,23 @@
   justify-content: center;
 }
 
-h1 {
-  display: inline-block;
+.header h1 {
   vertical-align: middle;
   font-family: 'fuji_quake_zone-webfont' !important;
   text-transform: uppercase;
   font-size: 20vw !important;
 
+  padding-right: 10px;
+
   background-color: #FF3CAC;
   background: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-h2 {
+.header h2 {
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: white !important;
@@ -53,15 +53,30 @@ h2 {
   color: white !important;
   padding-top: 10px;
   padding-left: 10px;
+}
+
+/****** ABOUT *********/
+.about {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  /*width: 80vw;*/
+
+  /*display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;*/
 
 }
 
-h3 {
-  margin: 0px !important;
-  line-height: 80% !important;
-  text-transform: uppercase;
-  font-family: 'fuji_quake_zone-webfont' !important;
+
+.about h1 {
+  /*text-align: left !important;*/
 }
+
+
 
 /****** FOOTER *********/
 .fa {
@@ -86,4 +101,13 @@ h3 {
   background-color: #4158D0!important;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)!important;
   color: white;
+  padding-top: 50px;
+}
+
+.footer h1 {
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+
+  font-family: 'fuji_quake_zone-webfont' !important;
+  text-transform: uppercase;
 }
