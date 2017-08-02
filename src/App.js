@@ -11,7 +11,7 @@ class App extends Component {
         <Navbar className="custom-navbar" staticTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="/">SULLY</a>
+              <a href="/">sully</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -22,28 +22,21 @@ class App extends Component {
           </Nav>
         </Navbar>
 
-        <Grid>
-          <Row className="intro">
-            <Col className="intro-col">
-              <h1>SULLY</h1>
-            </Col>
-          </Row>
-          <Row className="about">
-            <Col>
-              <p>
-                I'm a Developer with a passion for design, living in Santa Barbara, CA.
-                I work for Procore Technologies as a backend engineer.
-              </p>
-            </Col>
-          </Row>
-          <Row className="work">
-            <Col>
-            <h1>Latest Projects</h1>
-            </Col>
-          </Row>
-        </Grid>
+        <div className="intro section">
+          <h2>Hello World.  I'm a software engineer and a designer</h2>
+        </div>
 
-        <div className="contact">
+        <div className="about section">
+          <h2>
+            Web Development: Rails and react,
+            UI Design,
+            Brand Development,
+            Writing,
+            Security
+          </h2>
+        </div>
+
+        <div className="contact section">
           <h1>Let's Talk.</h1>
           <h2><a href="mailto:andrew.sullivan@procore.com?">andrew.sullivan@procore.com</a></h2>
         </div>
